@@ -21,6 +21,12 @@
             margin-top: 30px;
             margin-bottom: 15px;
         }
+        .legal-content h3 {
+            color: #00f0ff;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
         .legal-content p, .legal-content li {
             color: #cccccc;
             margin-bottom: 15px;
@@ -47,6 +53,12 @@
             font-style: italic;
             margin-bottom: 30px;
         }
+        .highlight-box {
+            background: rgba(156, 39, 176, 0.1);
+            border-left: 4px solid #9c27b0;
+            padding: 15px 20px;
+            margin: 20px 0;
+        }
     </style>
 </head>
 <body>
@@ -55,7 +67,7 @@
             <a href="index.html" class="back-btn">← Back to Home</a>
             
             <h1>Privacy Policy</h1>
-            <p class="last-updated">Last Updated: October 22, 2025</p>
+            <p class="last-updated">Last Updated: October 23, 2025</p>
 
             <h2>1. Introduction</h2>
             <p>Atech Engineering Solutions SRL ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how Tetris Lumi ("the App") handles your information when you use our mobile application.</p>
@@ -63,14 +75,12 @@
             <h2>2. Information We Collect</h2>
             <p>Tetris Lumi is designed with privacy in mind. We want to be clear about what information we do and do not collect:</p>
 
-            <h3>2.1 Information We DO NOT Collect</h3>
+            <h3>2.1 Information We DO NOT Collect Directly</h3>
             <ul>
                 <li>Personal identification information (name, email, phone number)</li>
-                <li>Location data</li>
-                <li>Device identifiers</li>
-                <li>Usage analytics or tracking data</li>
-                <li>Advertising identifiers</li>
-                <li>Network information</li>
+                <li>Precise location data</li>
+                <li>Contacts or photos</li>
+                <li>Payment information</li>
             </ul>
 
             <h3>2.2 Information Stored Locally</h3>
@@ -79,77 +89,153 @@
                 <li>High scores and game statistics</li>
                 <li>Game settings and preferences (sound, haptics, display options)</li>
                 <li>Game progress and achievements</li>
+                <li>Ad frequency preferences</li>
             </ul>
             <p>This data is stored using your device's local storage and can be deleted by uninstalling the App or clearing app data.</p>
 
-            <h2>3. How We Use Information</h2>
-            <p>Since we do not collect any personal information, we do not use, share, or process any data about you. All game data remains on your device and is used solely to provide you with the game experience.</p>
+            <h2>3. Advertising and Third-Party Services</h2>
+            <div class="highlight-box">
+                <p><strong>Important:</strong> Tetris Lumi displays advertisements through Google AdMob. These ads help us keep the App free for everyone.</p>
+            </div>
 
-            <h2>4. Third-Party Services</h2>
-            <p>Tetris Lumi does not integrate with any third-party services, analytics platforms, or advertising networks. The App operates entirely offline and does not communicate with external servers.</p>
+            <h3>3.1 Google AdMob</h3>
+            <p>We use Google AdMob to display banner and interstitial advertisements in the App. Google AdMob may collect and use certain information to provide personalized advertising:</p>
+            <ul>
+                <li><strong>Advertising ID:</strong> A unique identifier for advertising purposes</li>
+                <li><strong>Device Information:</strong> Device model, operating system version, screen size</li>
+                <li><strong>IP Address:</strong> Used to determine approximate location (country/city level)</li>
+                <li><strong>App Usage Data:</strong> Information about how you interact with ads</li>
+                <li><strong>Technical Data:</strong> Browser type, language settings, time zone</li>
+            </ul>
+
+            <h3>3.2 Ad Personalization</h3>
+            <p>Google may use this information to:</p>
+            <ul>
+                <li>Show you more relevant advertisements</li>
+                <li>Measure ad effectiveness</li>
+                <li>Detect and prevent fraud</li>
+                <li>Improve their advertising services</li>
+            </ul>
+
+            <h3>3.3 Your Ad Choices</h3>
+            <p>You have control over ad personalization:</p>
+            <ul>
+                <li><strong>Android:</strong> Go to Settings → Google → Ads → Opt out of Ads Personalization</li>
+                <li><strong>iOS:</strong> Go to Settings → Privacy → Advertising → Limit Ad Tracking</li>
+                <li><strong>Learn More:</strong> Visit <a href="https://www.google.com/settings/ads" style="color: #00f0ff;">Google Ad Settings</a></li>
+            </ul>
+
+            <h3>3.4 Ad Frequency</h3>
+            <p>To provide a good user experience:</p>
+            <ul>
+                <li>Banner ads are displayed on the main menu screen</li>
+                <li>Interstitial ads are shown every 3 completed games</li>
+                <li>Ad frequency data is stored locally on your device</li>
+            </ul>
+
+            <h3>3.5 Third-Party Privacy Policies</h3>
+            <p>Google's use of advertising cookies and data is subject to their own privacy policy:</p>
+            <ul>
+                <li><a href="https://policies.google.com/privacy" style="color: #00f0ff;">Google Privacy Policy</a></li>
+                <li><a href="https://policies.google.com/technologies/ads" style="color: #00f0ff;">Google Ads Policy</a></li>
+                <li><a href="https://support.google.com/admob/answer/6128543" style="color: #00f0ff;">AdMob Privacy Information</a></li>
+            </ul>
+
+            <h2>4. How We Use Information</h2>
+            <p>We do not collect or use your personal information directly. The information collected by Google AdMob is used solely for:</p>
+            <ul>
+                <li>Displaying relevant advertisements</li>
+                <li>Generating revenue to support free App development</li>
+                <li>Measuring ad performance and analytics</li>
+            </ul>
+            <p>All game data (scores, settings) remains on your device and is used solely to provide you with the game experience.</p>
 
             <h2>5. Children's Privacy</h2>
-            <p>Tetris Lumi is suitable for users of all ages. Since we do not collect any personal information, we do not knowingly collect information from children under 13 years of age. The App complies with the Children's Online Privacy Protection Act (COPPA).</p>
+            <p>Tetris Lumi is suitable for users of all ages. We comply with the Children's Online Privacy Protection Act (COPPA):</p>
+            <ul>
+                <li>We do not knowingly collect personal information from children under 13</li>
+                <li>Google AdMob shows age-appropriate ads to all users</li>
+                <li>Ads shown to children are non-personalized and comply with COPPA</li>
+                <li>If you believe a child has provided information, contact us immediately</li>
+            </ul>
 
             <h2>6. Data Security</h2>
-            <p>Since all game data is stored locally on your device, the security of this data depends on your device's security measures. We recommend:</p>
+            <p>We take data security seriously:</p>
             <ul>
-                <li>Using a secure lock screen</li>
-                <li>Keeping your device's operating system updated</li>
-                <li>Installing apps only from official app stores</li>
+                <li>Local game data is protected by your device's security measures</li>
+                <li>We use HTTPS for all communications with Google AdMob servers</li>
+                <li>Google AdMob employs industry-standard security measures</li>
+                <li>We recommend keeping your device's OS updated and using a secure lock screen</li>
             </ul>
 
             <h2>7. Data Retention and Deletion</h2>
-            <p>You have complete control over your data:</p>
+            <p>You have complete control over your local data:</p>
             <ul>
-                <li>To delete your high scores: Use the "Clear All Scores" button in the High Scores screen</li>
-                <li>To reset your settings: Use the "Reset to Defaults" button in the Settings screen</li>
-                <li>To delete all app data: Uninstall the App or clear app data from your device settings</li>
+                <li>To delete high scores: Use "Clear All Scores" in the High Scores screen</li>
+                <li>To reset settings: Use "Reset to Defaults" in Settings</li>
+                <li>To delete all app data: Uninstall the App or clear app data from device settings</li>
+                <li>To reset your advertising ID: Use your device's ad settings (see Section 3.3)</li>
+            </ul>
+            <p>Note: Google AdMob retains advertising data according to their own data retention policies.</p>
+
+            <h2>8. Your Rights Under GDPR and CCPA</h2>
+            <p>If you are in the European Union or California, you have additional rights:</p>
+            <ul>
+                <li><strong>Right to Access:</strong> Request what data Google collects about you</li>
+                <li><strong>Right to Deletion:</strong> Request deletion of your advertising profile</li>
+                <li><strong>Right to Opt-Out:</strong> Disable personalized advertising (see Section 3.3)</li>
+                <li><strong>Right to Know:</strong> Understand what data is collected and why</li>
+            </ul>
+            <p>For Google AdMob data requests, visit: <a href="https://myaccount.google.com/data-and-privacy" style="color: #00f0ff;">Google Privacy Controls</a></p>
+
+            <h2>9. International Data Transfers</h2>
+            <p>Google AdMob operates globally and may transfer data across borders:</p>
+            <ul>
+                <li>Data may be processed in the United States and other countries</li>
+                <li>Google complies with relevant data protection frameworks</li>
+                <li>All transfers are protected by appropriate safeguards</li>
             </ul>
 
-            <h2>8. Your Rights</h2>
-            <p>Since we do not collect or store any personal information about you, there is no data to access, modify, or delete from our systems. All your data remains under your control on your device.</p>
-
-            <h2>9. Changes to This Privacy Policy</h2>
-            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by:</p>
+            <h2>10. Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy from time to time. We will notify you of changes by:</p>
             <ul>
                 <li>Posting the new Privacy Policy on this page</li>
                 <li>Updating the "Last Updated" date</li>
-                <li>Providing notice within the App when appropriate</li>
+                <li>Providing in-app notice for significant changes</li>
             </ul>
-            <p>You are advised to review this Privacy Policy periodically for any changes.</p>
+            <p>Continued use of the App after changes constitutes acceptance of the updated policy.</p>
 
-            <h2>10. International Users</h2>
-            <p>Tetris Lumi can be used internationally. Since no data is transmitted to our servers, there are no international data transfer concerns. All data remains on your local device.</p>
+            <h2>11. Audio and Haptic Features</h2>
+            <p>The App includes optional sound effects and haptic feedback:</p>
+            <ul>
+                <li>These features run entirely on your device</li>
+                <li>No audio is recorded or transmitted</li>
+                <li>Can be disabled in Settings at any time</li>
+                <li>No microphone access is required</li>
+            </ul>
 
-            <h2>11. Compliance</h2>
-            <p>This Privacy Policy is designed to comply with:</p>
+            <h2>12. Permissions Explained</h2>
+            <p>Tetris Lumi requires these permissions:</p>
+            <ul>
+                <li><strong>Storage:</strong> To save game settings and high scores locally</li>
+                <li><strong>Vibration:</strong> For haptic feedback (optional)</li>
+                <li><strong>Internet:</strong> Required to load advertisements from Google AdMob</li>
+                <li><strong>Network State:</strong> To check connectivity before loading ads</li>
+            </ul>
+            <p>We do NOT access: contacts, camera, microphone, precise location, phone, SMS, or calendar.</p>
+
+            <h2>13. Compliance</h2>
+            <p>This Privacy Policy complies with:</p>
             <ul>
                 <li>General Data Protection Regulation (GDPR)</li>
                 <li>California Consumer Privacy Act (CCPA)</li>
                 <li>Children's Online Privacy Protection Act (COPPA)</li>
+                <li>Google Play and App Store policies</li>
                 <li>Other applicable privacy laws</li>
             </ul>
 
-            <h2>12. Audio and Haptic Features</h2>
-            <p>The App includes optional sound effects and haptic feedback features. These features:</p>
-            <ul>
-                <li>Run entirely on your device</li>
-                <li>Do not record or transmit any audio</li>
-                <li>Can be disabled at any time in Settings</li>
-                <li>Do not access your device's microphone</li>
-            </ul>
-
-            <h2>13. Permissions</h2>
-            <p>Tetris Lumi requires minimal permissions:</p>
-            <ul>
-                <li><strong>Storage:</strong> To save your game settings and high scores locally on your device</li>
-                <li><strong>Vibration:</strong> To provide haptic feedback during gameplay (optional, can be disabled)</li>
-            </ul>
-            <p>The App does not request access to contacts, camera, microphone, location, or other sensitive device features.</p>
-
             <h2>14. Contact Us</h2>
-            <p>If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us:</p>
+            <p>If you have questions about this Privacy Policy, data practices, or your privacy rights:</p>
             <p>
                 <strong>Atech Engineering Solutions SRL</strong><br>
                 sat. TOMESTI, com. TOMESTI, jud. IASI, tara ROMANIA<br>
@@ -159,7 +245,16 @@
             </p>
 
             <h2>15. Summary</h2>
-            <p><strong>In simple terms:</strong> Tetris Lumi respects your privacy. We don't collect, store, or share any of your personal information. Your game data stays on your device, and you have complete control over it. You can play with peace of mind knowing that your privacy is protected.</p>
+            <div class="highlight-box">
+                <p><strong>In simple terms:</strong></p>
+                <ul style="margin-bottom: 0;">
+                    <li>We respect your privacy and don't collect your personal information</li>
+                    <li>Your game data stays on your device</li>
+                    <li>We show ads through Google AdMob to keep the App free</li>
+                    <li>Google may collect advertising data (you can opt-out)</li>
+                    <li>You have full control over your data and ad preferences</li>
+                </ul>
+            </div>
 
             <a href="index.html" class="back-btn" style="margin-top: 40px;">← Back to Home</a>
         </div>
