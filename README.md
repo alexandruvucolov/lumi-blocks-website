@@ -1,10 +1,10 @@
-# Tetris Lumi Website
+# Lumi Blocks Website
 
-Official website for Tetris Lumi - Classic Tetris with Modern Design
+Official website for Lumi Blocks - Modern Block-Stacking Puzzle Game
 
 ## 🌐 Live Site
 
-https://alexandruvucolov.github.io/tetris-lumi-website/
+https://alexandruvucolov.github.io/lumi-blocks-website/
 
 ## 📄 Pages
 
@@ -31,7 +31,7 @@ The website features:
 
 ## 📱 Mobile App
 
-Tetris Lumi is available on iOS and Android (Coming Soon)
+Lumi Blocks is available on iOS and Android (Coming Soon)
 
 ## 📝 License
 
